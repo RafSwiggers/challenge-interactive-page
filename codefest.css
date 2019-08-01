@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     width: 1000px;
     margin-left: 100px;
@@ -32,6 +39,10 @@ header {
     display: inline;
     margin-top:125px;
     padding: 10px;
+}
+
+#volgende {
+    padding-right: 40px;
 }
 
 #fotobox {
