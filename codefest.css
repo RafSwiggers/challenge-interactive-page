@@ -10,24 +10,35 @@ header {
     border: 2px solid rgba(158, 154, 14, 0.5);
 }
 
-#vorige {
+#links, #rechts {
+    z-index: 1;
+    color: rgba(13, 12, 12, 1);
+    font-weight: 900;border: 2px solid rgba(46, 45, 43, 0.8);
+    background-color: rgba(171, 165, 150, 0.5);
+    border-radius: 15px
+
+}
+
+
+#links {
+    position: absolute;
     margin: 125px 0 0 20px;
     padding: 10px;
-    border: 2px solid rgba(158, 154, 14, 0.5);
-    border-radius: 10px;
     float: left;
 }
 
-#volgende {
+#rechts {
+    position: absolute;
     display: inline;
     margin-top:125px;
     padding: 10px;
-    border: 2px solid rgba(158, 154, 14, 0.5);
-    border-radius: 10px;
 }
 
 #fotobox {
+    position: relative;
     display: inline;
+    margin: auto;
+    overflow: hidden;
 }
 
 #foto1 {
@@ -40,6 +51,14 @@ header {
 
 #foto3 {
 
+}
+
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
 }
 
 #summary {
