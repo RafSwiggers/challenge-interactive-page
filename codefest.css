@@ -35,13 +35,14 @@ header {
 }
 
 #rechts {
-    position: absolute;
+    position: relative;
     display: inline;
-    margin-top:125px;
+    margin-top:100px;
     padding: 10px;
 }
 
 #volgende {
+    margin-top: -100px;
     padding-left: 835px;
 }
 
@@ -135,31 +136,15 @@ li {
     display: none;
 }
 
-#summary, #form {
-
+article {
+    width: 90px;
+    margin: 30px;
 }
 
-#summary {
-
+.art {
+    float: left;
 }
 
-#programma {
-
+.art2, .art3 {
+    display: inline-block;
 }
-
-#info {
-
-}
-
-#info {
-
-}
-
-#lokatie {
-
-}
-
-#form {
-
-}
-
