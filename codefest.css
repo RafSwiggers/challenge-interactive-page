@@ -83,7 +83,11 @@ ul {
 
 li {
     display: inline-block;
-    background-color: gray;
+}
+
+.data {
+    background-image: linear-gradient(90deg, #9C92A6, #AEABB8, #ADB3C4, #8D8EA1);
+    width: 800px;
 }
 
 a:link {
@@ -96,6 +100,8 @@ a:link {
     padding: 5px 4px 0 4px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
+    border: 2px solid darkslategray;
+    background-color: gray;
     height: 40px;
     color: gray;
 }
@@ -104,19 +110,17 @@ h2 {
     color: lightgray;
     text-transform: uppercase;
     font-family: Loma;
-    text-shadow: 1px 1px 3px blue;
+    text-shadow: 1px 1px 5px blue;
 }
 
-.data {
-    background-image: linear-gradient   ((90deg, rgba(156, 146, 166, 0.8) 25%),
-                                    (90deg, rgba(174, 171, 184, 0.8) 50%),
-                                    (90deg, rgba(141, 142, 161, 0.8) 75%));
+li {
+    background-image: linear-gradient (90deg, #9C92A6, #AEABB8, #ADB3C4, #8D8EA1)
 }
 
 .tabs {
     height: 200px;
     border: 2px solid black;
-    width: 800px
+    width: 800px;
 }
 
 #programma {
