@@ -5,17 +5,19 @@ body {
 
 header {
     width: 900px;
-    height: 250px;
+    height: 300px;
     background-color: lightgray;
     border: 2px solid rgba(158, 154, 14, 0.5);
 }
 
-#prev {
+#vorige {
+    margin: 125px 0 0 20px;
     width: 100px;
     height: 100px;
 }
 
-#next {
+#volgende {
+    margin: 125px 0 0 880px;
     width: 100px;
     display: inline;
 }
