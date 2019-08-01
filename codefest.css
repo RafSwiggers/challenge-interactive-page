@@ -82,8 +82,15 @@ ul {
 }
 
 li {
-    display: inline-block;g
+    display: inline-block;
     background-color: darkslategray;
+    width: 280px;
+}
+
+a:link {
+    color: forestgreen;
+    text-decoration: none;
+    font-family: Serif;
 }
 
 #summary {
