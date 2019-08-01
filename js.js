@@ -56,4 +56,6 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 100, 25, 5000);
+animateValue("tickets", 0, 100, 10000);
+animateValue("podia", 0, 16, 10000);
+animateValue("bands", 0, 100, 10000);
