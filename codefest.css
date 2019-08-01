@@ -78,19 +78,55 @@ ul {
 
 #list1, #list2 {
     list-style-type: none;
-    padding: 20px;
+    padding-left: 25px;
 }
 
 li {
     display: inline-block;
-    background-color: darkslategray;
-    width: 280px;
+    background-color: gray;
 }
 
 a:link {
-    color: forestgreen;
     text-decoration: none;
     font-family: Serif;
+    text-align: center;
+}
+
+.button {
+    padding: 0 15px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    height: 40px;
+    color: gray;
+}
+
+h2 {
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-family: Loma;
+}
+
+
+.tabs {
+    height: 200px;
+    border-top: 2px solid black;
+    width: 400px
+}
+
+#programma {
+    float: left;
+}
+
+#lokatie, #formulier {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+#summary, #form {
+
 }
 
 #summary {
