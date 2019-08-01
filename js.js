@@ -1,4 +1,5 @@
 const tabs = document.getElementsByClassName("tabs");
+const navs = document.getElementsByTagName('a');
 const slides = document.getElementsByTagName('img');
 var next = document.getElementById("volgende");
 var previous = document.getElementById("vorige");
