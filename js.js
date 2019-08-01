@@ -36,9 +36,6 @@ function prevSlide() {
     }
 };
 
-buttons[0].addEventListener('click', function() {
-    console.log("wooo");
-})
 
 next.addEventListener('click', nextSlide);
 previous.addEventListener('click', prevSlide);
