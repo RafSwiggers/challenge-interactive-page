@@ -77,12 +77,12 @@ ul {
 }
 
 #list1, #list2 {
-    display: inline-block;
     list-style-type: none;
     padding: 20px;
 }
 
 li {
+    display: inline-block;g
     background-color: darkslategray;
 }
 
