@@ -15,6 +15,7 @@ header {
     height: 300px;
     background-color: lightgray;
     border: 2px solid rgba(158, 154, 14, 0.5);
+    margin-bottom: 60px;
 }
 
 #links, #rechts {
@@ -25,7 +26,6 @@ header {
     border-radius: 15px
 
 }
-
 
 #links {
     position: absolute;
@@ -42,7 +42,7 @@ header {
 }
 
 #volgende {
-    padding-right: 40px;
+    padding-left: 835px;
 }
 
 #fotobox {
@@ -70,6 +70,20 @@ header {
 
 .inactive {
     display: none;
+}
+
+ul {
+
+}
+
+#list1, #list2 {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    background-color: darkslategray;
 }
 
 #summary {
