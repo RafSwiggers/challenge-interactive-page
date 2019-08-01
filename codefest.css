@@ -1,17 +1,26 @@
 body {
-
+    width: 1000px;
 }
 
 header {
-
+    width: 100%;
+    background-color: lightgray;
+    border: 2px solid rgba(158, 154, 14, 0.5);
 }
 
-#previous {
-
+#prev {
+    width: 100px;
+    height: 100px;
 }
 
 #next {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
 
+#fotobox {
+    display: inline;
 }
 
 #foto1 {
